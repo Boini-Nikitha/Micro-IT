@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <header>
+    <h1>MyPortfolio</h1>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h2>Hello, I'm Boini Nikitha</h2>
+    <p style="color: crimson; font-size: 30px;">Student</p>
+    <a href="#contact" class="btn">Get In Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <img src="about.jpg" alt="About Me Photo">
+      <div class="about-text">
+        <p>I am a passionate and motivated student currently pursuing my Bachelor's Degree  in Computer Science at Malla Reedy Engineering College For Women. I have a strong interest in web development, programming, and learning new technologies. Although I don't have professional experience yet, I have built several academic and personal projects that reflect my enthusiasm for problem-solving and innovation. I am always eager to learn, grow, and contribute to real-world projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="rf.jpg" alt="RecipeForge">
+        <div class="content">
+          <h3>RecipeForge-Turn Ingredients into Dishes</h3>
+          <p>A dynamic recipe site with interactive ingredient adjustments built using HTML, CSS, and JavaScript.
+            <br>•Recipe Forge is a dynamic website that provides detailed recipes based on user- specified ingredients.
+            <br>•Adjusts ingredient quantities according to the number of servings
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="weapon.jpg" alt="CCTV Weapon Detection">
+        <div class="content">
+          <h3>Real time CCTV video analysis through deep learning for weapon detection</h3>
+          <p>A deep learning-based system that analyzes live CCTV footage to detect weapons in real time.
+<br>->It uses deep learning to identify weapons like guns or knives in live footage.
+<br>->It enables instant threat detection and alerts for enhanced public safety
+.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <h3>JAVA</h3>
+        <div class="bar"><div class="progress" style="width: 95%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>HTML & CSS</h3>
+        <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>MySql</h3>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>Python</h3>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
